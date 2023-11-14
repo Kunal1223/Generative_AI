@@ -1,0 +1,665 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lora', serif;
+}
+
+body{
+  background-color: #232323;
+}
+
+
+
+/* ************Navbar************************** */
+
+.container{
+  height: 60px;
+  width: 100%;
+  background-color: #232323;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-items: center;
+  color: white;
+ 
+}
+
+.logo1{
+  width: 100px;
+  height: 50px;
+}
+
+/* .nav{
+  margin-right: 24%;
+  margin-left: 24%;
+} */
+
+
+.nav1 {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  padding: 3%;
+  margin-right: 3%;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.nav2 {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: orange;
+  margin-left: 19%;
+  padding: 8% 29%;
+  border-radius: 8px;
+  border: 1px solid orange;
+  font-size: 16px;
+
+}
+
+.nav1:hover{
+  color: orange;
+}
+
+.nav2:hover{
+  background-color: orange;
+  color: white;
+  border: 1px solid orange;
+  border-radius: 7px;
+}
+
+/* **********************login here***************** */
+.logo2{
+  width: 350px;
+  height: 250px;
+  margin-left: 17px;
+}
+
+.container1{
+  height: 95%;
+  width: 53%;
+  margin-top: 6%;
+  margin-left: 20%;
+  margin-right: 20%;
+  /* margin: auto; */
+  /* box-shadow: 9px 9px 63px #888888;  */
+  border: 0px solid #888888;
+  background-color:#232323;
+}
+
+.contain{
+  display: flex;
+  justify-content: space-around;
+}
+
+.heading{
+  margin-left: 70px;
+  margin-top: 60px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.user{
+  margin-left: 30px;
+  margin-top: 30px;
+  padding: 5px 8px;
+  text-align: center;
+  align-items: center ;
+  width:240px;
+  height: 30px;
+  border-radius: 18px;
+  border: 0px solid ;
+  background-color: #d0d4da;
+}
+
+.forget{
+  display: flex;
+  color: white;
+  margin-top: 10px;
+  font-size: 10px;
+  justify-content: space-around;
+}
+
+.btn{ 
+  background-color: orange;
+  width:240px;
+  margin-top: 40px;
+  height: 30px;
+  margin-left: 30px;
+  border-radius: 18px;
+  border: 0px solid ;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 40px ;
+}
+
+.btn:hover{
+  background-color: rgb(223, 161, 48);
+}
+
+.right{
+  margin-top: 60px;
+  margin-right: 20px;
+}
+
+.left{
+  margin-left: 20px;
+}
+
+/* ********************************************signup************************* */
+.container2{
+  height: 500px;
+  width: 700px;
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  /* box-shadow: 9px 9px 63px #888888; */
+  border: 0px solid #888888;
+  background-color:#232323;
+}
+
+.heading1{
+  margin-left: 90px;
+  margin-top: 60px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.right1{
+  margin-top: 100px;
+  margin-right: 20px;
+}
+
+.logo3{
+  width: 350px;
+  height: 350px;
+  margin-left: 17px;
+}
+
+.hr{
+  width: 260px;
+  height: 2px;
+  margin-top: 20px;
+  margin-left: 16px;
+}
+
+.btn1{
+  background-color: orange;
+  width:240px;
+  margin-top: 20px;
+  height: 30px;
+  margin-left: 30px;
+  border-radius: 18px;
+  border: 0px solid ;
+  color: #fff;
+  cursor: pointer;
+ 
+}
+
+.btn4{
+  margin-left: 162px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn4:hover{
+  color: rgb(248, 164, 8);
+}
+
+.fa-solid{
+  color: rgb(255, 0, 0);
+  margin-right: 8px;
+}
+
+.nav3{
+  color: red;
+  text-decoration: none;
+}
+
+/* ***************************** Recipe ****************************************** */
+
+.recipe-container{
+  align-items: center;
+  margin-top: 6%;
+}
+
+.recipe-container h1{
+  color: white;
+  text-align: center;
+ }
+
+ .ingredients{
+  font-size: 22px;
+  font-weight: 550;
+  color:white;
+ }
+
+ .recipe-cook{
+  display: flex;
+  text-align: center;
+  color: white;
+  margin-bottom: 5%
+ }
+
+.cook-text{
+  margin-top: 14%;
+}
+
+ .cook-text h1{
+    font-size: 16px;
+    font-weight: 5400;
+ }
+
+ .cook-text h2{
+  font-size: 14px;
+  font-weight: 400;
+}
+ 
+.cook-img img{
+  width: 140%;
+}
+
+ .form-recipe{
+  align-items: center;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 4%;
+  /* border: 1px solid red; */
+ }
+
+ .input{
+  margin-left: 2%;
+  width: 39%;
+  padding: 6px;
+  margin-bottom: 1%;
+ }
+
+ .btn2{
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-left: 5px;
+  cursor: pointer;
+  border: 0px solid;
+  color: white;
+  background-color: orange;
+ }
+
+ .response1{
+  margin: 0% 20%;
+  color: white;
+ }
+
+ .loading-spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top: 4px solid #3498db; 
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+/* ############################ Home css ########################################## */
+
+.home-container{
+  color: #FDFDFD;
+  text-align: center;
+  margin-top: 6%;
+}
+
+.home-container h1{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.home-container h2{
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 2%;
+}
+
+.home-btn{
+  text-decoration: none;
+  padding: 7px 20px;
+  background-color: rgb(243, 176, 51) ;
+  border-radius: 8px;
+  color: white;
+  border: 0px;
+}
+
+.home-btn:hover{
+  background-color: orange;
+}
+
+.img-container{
+  margin-top: 4%;
+  text-align: center;
+  align-items: center;
+}
+
+.img-container img{
+  width: 20%;
+}
+
+.img-container h1{
+  font-size: 16px;
+  color: rgb(232, 221, 221);
+  margin: 6% 20%;
+  font-weight: 400;
+}
+
+.rotate {
+  animation: rotate 8s linear infinite; 
+  margin-right: 20px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* *****************************footer*********************************************** */
+.footer{
+  margin-top: 40px;
+  background-color:#272727;
+  color: white;
+  font-size: 14px;
+  height: 320px;
+  padding: 60px 0 20px;
+}
+
+
+.container4{
+  height:auto;
+  margin: auto;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+
+.footer p{
+  color: white;
+}
+
+.footer h3{
+  color: rgb(199, 196, 196);
+}
+
+.footer-col-1{
+  margin-left: 20px;
+}
+
+.footer-col-1 img{
+  width: 100px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.footer-col-2{
+  margin-left: 8pxpx;
+}
+
+.footer-col-2 ul li{
+  list-style-type: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 400;
+  height: auto;
+  color: white;
+  line-height: 30px;
+
+}
+
+.footer-col-2 h3{
+  color: white(71, 70, 70);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.footer-col-2 ul li:hover{
+  color: orange;
+}
+
+
+.copyright{
+  font-size: 13px;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  /* margin-bottom: 14px; */
+}
+
+.copyright copy{
+  font-size: 10px;
+}
+
+/* ########################### google ################### */
+.hr{
+  width: 90%;
+  margin: 8% 5%;
+  
+}
+
+.google-results{
+  color: white;
+  margin: 6% 20%;
+  text-decoration: none;
+}
+
+.google-results h2 {
+  color: red;
+  font-size: 33px;
+  margin-bottom: 2%;
+  font-weight: 600;
+}
+
+.google-results a{
+  text-decoration: none;
+  color: rgb(210, 237, 58);
+  margin-top: 4%; 
+}
+
+.google-results img{
+  margin-bottom: 4%;
+}
+
+/* ***************************** about container ********************************* */
+
+.about-container{
+  display: flex;
+  color: white;
+}
+
+.about-content{
+  margin: 8% 12% 1% 12%;
+}
+
+.about-content h1{
+  font-size: 50px;
+  margin-bottom: 1%;
+}
+
+.about-content h5{
+  margin-bottom: 5%;
+}
+
+.aimg{
+  width: 100%;
+  margin-left: 19%;
+  margin-top: 20%;
+}
+
+.about-team{
+  color: white;
+  margin: 6% 10%;
+}
+
+.about-team h1{
+  margin-bottom: 1%;
+}
+
+.about-team1{
+  color: white;
+  margin: 6% 10%;
+}
+
+.about-small{
+  font-size: 22px;
+  margin-bottom: 1%;
+  color: orange;
+}
+
+.about-hr{
+  width: 20%;
+  margin-top: 0.3%;
+  margin-bottom: 1.4%;
+}
+
+.about-team1 h3{
+  margin-top: 3%;
+  margin-bottom: 1%;
+}
+
+.about-low{
+  font-size: 22px;
+  margin-bottom: 1%;
+  margin-top: 6%;
+  color: orange;
+}
+
+.rotate-img {
+  animation: rotate 4s linear infinite; 
+  margin-left: 40%;
+  margin-bottom: 4%;
+  /* box-shadow: 12px 23px 123px 23px yellow; */
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+/* ################################# law ########################################### */
+
+.law-content{
+  display: flex;
+  text-align: center;
+  color: white;
+  margin-top: 8%;
+  margin-bottom: 12%;
+  justify-content: space-around;
+ }
+
+ .law-text{
+  margin-top: 10%;
+ }
+
+ .law-text h1{
+  font-size: 16px;
+  font-weight: 540;
+}
+
+.law-text h2{
+font-size: 14px;
+margin-bottom: 10%;
+margin-right: 2%;
+font-weight: 400;
+}
+
+.law-img img{
+  width: 490px;
+  margin-left: 18%;
+
+}
+
+@keyframes hammerAnimation {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20%);
+  }
+}
+
+.hammer-plate{
+  display: inline;
+  align-items: center;
+  text-align: center;
+}
+
+.hammer {
+  width: 30%;
+  margin-left: 40%;
+  animation: hammerAnimation 2s ease-in-out infinite;
+}
+
+.plate{
+  width: 15%;
+  margin-left: -33%;
+}
+
+
+
+
+
+/* ************************responsiveness ***************************************** */
+
+@media only screen and (max-width: 1015px) {
+  .container2{
+    height: 500px;
+    width: 700px;
+    margin-top: 7%;
+    margin-left: 13%;
+  }
+
+  .container1{
+    height: 400px;
+    width: 700px;
+    margin-top: 8%;
+    margin-left: 12%;
+  }
+}
+
+@media only screen and (max-width:855px) {
+.container1{
+  height: 400px;
+  width: 700px;
+  margin-top: 8%;
+  margin-left: 4%;
+}
+
+.container2{
+  height: 500px;
+  width: 700px;
+  margin-top: 8%;
+  margin-left: 4%;
+}
+}
