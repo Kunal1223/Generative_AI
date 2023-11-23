@@ -61,16 +61,16 @@ app.post('/legal', async (req, res) => {
 app.get('/google-search', async (req, res) => {
   const query = req.query.q; 
  
-  try { 
+  try {  
     const customsearch = google.customsearch('v1');
     const searchResult = await customsearch.cse.list({
-      q: query, 
+      q: query,  
       cx: process.env.GOOGLE_CUSTOM_SEARCH_CX, // Your Custom Search Engine CX
       key: process.env.GOOGLE_API_KEY, // Your Google API Key
     });
-  
+   
     res.status(200).json(searchResult.data);
-  } catch (error) {
+  } catch (error) { 
     console.error('Google Search Error:', error);
     res.status(500).json({ error: 'Internal Server Error' });
   }
