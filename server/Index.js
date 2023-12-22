@@ -37,7 +37,7 @@ app.post('/test', async (req, res) => {
   }
 }); 
 
-//This is for the Recipe Request:
+//This is for the legal Request:
 app.post('/legal', async (req, res) => {
   try {
     const defaultPrompt = "Suggest me the Legal Solution for the query i addrss with all IPC Section which comes ander this Case:\n\n<b>Legal Solution For:[Your Case Name Here]</b>\n\n<b>Instructions:</b>\n1.\n2.\n3.\n\nFeel free to add any additional details or variations to make the recipe unique!";
